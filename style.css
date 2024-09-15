@@ -1,0 +1,172 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c0280;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    color: white;
+}
+
+.search-container {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+.search-container h3 {
+    color: #270a77
+}
+
+.search-container input {
+    width: 40vw;
+    height: 5vh;
+    border: none;
+}
+
+/*  */
+
+.images-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1c0280;
+    height: 55vh;
+}
+
+.card {
+    width: calc(90%/4);
+    border-radius: 5%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+}
+
+.card img {
+    width: 15vw;
+    height: 15vh;
+
+}
+
+.card button {
+    background-color: white;
+    color: #270a77;
+    border: 1px solid #270a77;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #270a77;
+    color: white;
+}
+
+.gray-container {
+    background-color: #eeeeee;
+    height: 20vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c0280;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+@media only screen and (min-width: 375px) and (min-height: 812px) {
+
+    .images-container {
+        height: 150vh;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 90%;
+        background-color: red;
+        height: 35vh;
+    }
+
+    .card img {
+        width: 15vw;
+        height: 15vh;
+
+    }
+}
+
+@media only screen and (min-width: 412px) and (min-height: 869px) {
+    .images-container {
+        height: 150vh;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 90%;
+        background-color: green;
+        height: 35vh;
+    }
+
+    .card img {
+        width: 15vw;
+        height: 15vh;
+
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 1366px) {
+    .images-container {
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(90%/2);
+        background-color: purple;
+        height: 35vh;
+    }
+
+    .card img {
+        width: 15vw;
+        height: 15vh;
+
+    }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080x) {
+    .images-container {
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(90%/4);
+        background-color: yellow;
+        height: 35vh;
+    }
+
+    .card img {
+        width: 15vw;
+        height: 15vh;
+
+    }
+}
